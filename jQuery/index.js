@@ -29,7 +29,7 @@ $('h1').on('mousover', function () {
 
 // $('button').remove()
 
-// Website Animations with jQuery
+// Website Animations with jQuery - https://www.w3schools.com/jquery/jquery_ref_effects.asp
 $('button').on('click', function () {
 	$('h1').fadeToggle()
 })
