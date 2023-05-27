@@ -36,7 +36,7 @@ app.post('/', function (req, res) {
 
 	const options = {
 		method: 'POST',
-		auth: 'kristan03:47e0a5e23f8c83c450177ff420029013-us14',
+		auth: 'kristan03:6d1a470a4b86d780893914374d33ac6e-us14',
 	}
 
 	const request = https.request(url, options, function (response) {
@@ -59,5 +59,5 @@ app.listen(3000, function () {
 	console.log('Server is running on port 3000.')
 })
 
-// API Key = 47e0a5e23f8c83c450177ff420029013-us14
+// API Key = 6d1a470a4b86d780893914374d33ac6e-us14
 // Audeience ID = 20b16e3aa8
