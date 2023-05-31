@@ -47,6 +47,6 @@ app.get('/about', function (req, res) {
 	res.render('about')
 })
 
-app.listen(3000, function () {
-	console.log('Server is started on port 3000')
+app.listen(3001, function () {
+	console.log('Server is started on port 3001')
 })
